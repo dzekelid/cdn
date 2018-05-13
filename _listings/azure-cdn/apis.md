@@ -16,21 +16,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure CDN API Profiles Generate Sso Uri
-  description: Generates a dynamic SSO URI used to sign in to the CDN supplemental
-    portal. Supplemnetal portal is used to configure advanced feature capabilities
-    that are not yet available in the Azure portal, such as core reports in a standard
-    profile; rules engine, advanced HTTP reports, and real-time stats and alerts in
-    a premium profile. The SSO URI changes approximately every 10 minutes.
+- name: Azure CDN API Profiles List Resource Usage
+  description: Checks the quota and actual usage of endpoints under the given CDN
+    profile.
   image: ""
   humanURL: https://azure.microsoft.com/en-us/services/cdn/
   baseURL: http:://management.azure.com//
   tags: CDN
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-generatessouri-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-checkresourceusage-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-generatessouri-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-checkresourceusage-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/cdn/
