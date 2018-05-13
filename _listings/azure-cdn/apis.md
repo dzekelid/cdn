@@ -27,17 +27,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-get-postman.md
-- name: Azure CDN API Custom Domains Disable Custom Https
-  description: Disable https delivery of the custom domain.
+- name: Azure CDN API Custom Domains Enable Custom Https
+  description: Enable https delivery of the custom domain.
   image: ""
   humanURL: https://azure.microsoft.com/en-us/services/cdn/
   baseURL: http:://management.azure.com//
   tags: CDN
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-customdomainname-disablecustomhttps-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-customdomainname-enablecustomhttps-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-customdomainname-disablecustomhttps-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-customdomains-customdomainname-enablecustomhttps-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/cdn/
