@@ -27,18 +27,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-get-postman.md
-- name: Azure CDN API Endpoints Update
-  description: Updates an existing CDN endpoint with the specified endpoint name under
-    the specified subscription, resource group and profile. Only tags and Origin HostHeader
-    can be updated after creating an endpoint. To update origins, use the Update Origin
-    operation. To update custom domains, use the Update Custom Domain operation.
+- name: Azure CDN API Endpoints Delete
+  description: Deletes an existing CDN endpoint with the specified endpoint name under
+    the specified subscription, resource group and profile.
   image: ""
   humanURL: https://azure.microsoft.com/en-us/services/cdn/
   baseURL: http:://management.azure.com//
   tags: CDN
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/cdn/
