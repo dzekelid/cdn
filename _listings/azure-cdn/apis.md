@@ -27,16 +27,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-get-postman.md
-- name: Azure CDN API Endpoints Create
-  description: Creates a new CDN endpoint with the specified endpoint name under the
-    specified subscription, resource group and profile.
+- name: Azure CDN API Endpoints Update
+  description: Updates an existing CDN endpoint with the specified endpoint name under
+    the specified subscription, resource group and profile. Only tags and Origin HostHeader
+    can be updated after creating an endpoint. To update origins, use the Update Origin
+    operation. To update custom domains, use the Update Custom Domain operation.
   image: ""
   humanURL: https://azure.microsoft.com/en-us/services/cdn/
   baseURL: http:://management.azure.com//
   tags: CDN
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cdn/master/_listings/azure-cdn/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cdn-profiles-profilename-endpoints-endpointname-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/cdn/
